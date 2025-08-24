@@ -15,7 +15,7 @@ export default function AboutPage() {
       <h2>How to use (short video)</h2>
       <p>Replace the video source below with your own 3–8 minute walkthrough (face + screen + audio).</p>
       <video controls width={720} poster="" style={{ maxWidth: "100%" }}>
-        <source src="/about-video.mp4" type="video/mp4" />
+        <source src="\public\Assignment.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
     </section>
