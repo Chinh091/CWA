@@ -9,10 +9,10 @@ export const metadata: Metadata = {
   description: "Accessible UI with code generator (Tabs)",
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default async function RootLayout({ children }: { children: React.ReactNode }) {
   const cookieStore = cookies();
-  const theme = cookieStore.get("theme")?.value || "system";
-  const lastMenuPath = cookieStore.get("lastMenuPath")?.value || null;
+  const theme = (await cookieStore).get("theme")?.value || "system";
+  const lastMenuPath = (await cookieStore).get("lastMenuPath")?.value || null;
 
   // Replace with your actual details
   const studentName = "Cong Chinh Phan";
