@@ -1,7 +1,7 @@
 "use client";
 
 // Theme selector (system / light / dark) stored in a cookie and applied to <html data-theme="...">.
-// AI disclosure: assisted by GPT-5 Pro.
+// AI disclosure: assisted by GPT-5.
 import { useEffect, useState } from "react";
 import { setCookie, getCookie } from "@/lib/cookies-client";
 

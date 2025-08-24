@@ -2,7 +2,7 @@
 
 **Delivered files meet the brief**: Header (with student number, hamburger/kebab menu), breadcrumbs, theme toggle, footer with name/student number/date; cookies to remember which menu tab (page) was last opened; About page with a short how‑to video placeholder; Home page has a **Tabs code generator** that outputs **a standalone HTML file** with **inline CSS only (no classes)** and **vanilla JS**.
 
-> AI disclosure: scaffold and parts of implementation assisted by **GPT‑5 Pro** at your request (see comment headers in source files).
+> AI disclosure: scaffold and parts of implementation assisted by GPT‑5.
 
 ## Quick start
 ```bash
@@ -12,12 +12,6 @@ npm run dev
 ```
 
 Open http://localhost:3000
-
-## What to customise
-- Search and replace `STUDENT_NUMBER_HERE` with your real student number.
-- Update `YOUR_NAME_HERE` in Footer/About (I set it to "Chinh Cong Phan" by default).
-- Replace the video on **About** with your actual 3–8 minute walkthrough.
-- Commit weekly to satisfy the GitHub evidence requirement.
 
 ## Where the key bits live
 - Header/Menu/Theme/Breadcrumbs: `components/Header.tsx`, `components/ThemeToggle.tsx`, `components/Breadcrumbs.tsx`

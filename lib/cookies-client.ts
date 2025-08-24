@@ -1,5 +1,5 @@
 // Simple cookie helpers (client-side).
-// AI disclosure: assisted by GPT-5 Pro.
+// AI disclosure: assisted by GPT-5.
 export function setCookie(name: string, value: string, days = 120) {
   const maxAge = days * 24 * 60 * 60;
   document.cookie = `${encodeURIComponent(name)}=${encodeURIComponent(value)}; path=/; max-age=${maxAge}; samesite=lax`;

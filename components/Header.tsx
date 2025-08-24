@@ -1,7 +1,6 @@
 "use client";
 
 // Accessible header with hamburger menu, breadcrumbs and theme toggle.
-// AI disclosure: scaffold assisted by GPT-5 Pro.
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { usePathname } from "next/navigation";

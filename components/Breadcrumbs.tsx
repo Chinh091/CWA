@@ -1,7 +1,7 @@
 "use client";
 
 // Accessible breadcrumb builder based on current pathname.
-// AI disclosure: assisted by GPT-5 Pro.
+// AI disclosure: assisted by GPT-5.
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
