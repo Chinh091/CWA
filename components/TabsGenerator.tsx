@@ -3,7 +3,6 @@
 
 // Tabs code generator that outputs a standalone HTML document
 // with inline CSS only (no classes) and vanilla JS.
-// AI disclosure: assisted by GPT-5 Pro.
 import { useMemo, useState } from "react";
 
 type Label = { id: string; text: string };
